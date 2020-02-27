@@ -19,5 +19,6 @@ class Main{
         //init the database conenction
         Database.initDatabase(params);
         System.out.println(Database.getConnectionURL());
+        Database.connection();
     }
 }
